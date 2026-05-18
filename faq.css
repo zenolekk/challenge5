@@ -16,7 +16,7 @@
     body {
   font-family: 'Work Sans', sans-serif;
   background-color: var(--light-purple);
-  background-image: url('./assets/images/background-pattern-desktop.svg');
+  background-image: url('background-pattern-desktop.svg');
   background-repeat: no-repeat;
 
   background-size: 100% auto; 
@@ -31,7 +31,7 @@
 
 @media (max-width: 600px) {
   body {
-    background-image: url('./assets/images/background-pattern-mobile.svg');
+    background-image: url('background-pattern-mobile.svg');
     background-size: 100% auto; 
   }
   
@@ -116,7 +116,7 @@
       display: inline-block;
       width: 30px;
       height: 30px;
-      background-image: url('./assets/images/icon-plus.svg');
+      background-image: url('icon-plus.svg');
       background-size: contain;
       background-repeat: no-repeat;
       flex-shrink: 0;
@@ -124,7 +124,7 @@
     }
 
     details[open] summary::after {
-      background-image: url('./assets/images/icon-minus.svg');
+      background-image: url('icon-minus.svg');
     }
 
     .answer {
@@ -154,7 +154,7 @@
 
     @media (max-width: 600px) {
       body {
-        background-image: url('./assets/images/background-pattern-mobile.svg');
+        background-image: url('background-pattern-mobile.svg');
         background-size: 100% 250px;
       }
       
